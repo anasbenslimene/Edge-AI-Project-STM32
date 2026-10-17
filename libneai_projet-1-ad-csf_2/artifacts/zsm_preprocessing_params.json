@@ -1,0 +1,49 @@
+[
+  {
+    "detrend": {
+      "input_dimension": {
+        "n_samples": 1500,
+        "n_features": 50,
+        "n_channels": 1
+      },
+      "output_dimension": {
+        "n_samples": 1500,
+        "n_features": 50,
+        "n_channels": 1
+      },
+      "context": null,
+      "method": "polynomial",
+      "degree": 3
+    }
+  },
+  {
+    "absolute": {
+      "input_dimension": {
+        "n_samples": 1500,
+        "n_features": 50,
+        "n_channels": 1
+      },
+      "output_dimension": {
+        "n_samples": 1500,
+        "n_features": 50,
+        "n_channels": 1
+      },
+      "context": null
+    }
+  },
+  {
+    "interleaved": {
+      "input_dimension": {
+        "n_samples": 1500,
+        "n_features": 50,
+        "n_channels": 1
+      },
+      "output_dimension": {
+        "n_samples": 1500,
+        "n_features": 50,
+        "n_channels": 1
+      },
+      "context": null
+    }
+  }
+]

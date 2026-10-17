@@ -1,0 +1,91 @@
+{
+    "accelerators": [],
+    "algorithm_type": "on_board_training",
+    "commit": "HEAD",
+    "compilation_date": "2026-09-24T14:34:38.581687",
+    "compilation_flags": {
+        "float_abi": "hard",
+        "fshort_enums": false,
+        "short_wchar": false
+    },
+    "compilation_str": "{'compilation_dict':{'request_type':'library','api':{'env':'PROD','version':'v3'},'version':{'web_api':{'env':'PROD','version':'v3'},'local_api':{'version':'2026.06.22.0','platform':'win64'},'studio':'5.2.0'},'compilation_flags':{'float_abi':'hard','short_wchar':false,'fshort_enums':false,'use_knowledge':false},'mcu':'cortex-m4_st_stm32f4_stm32f407g-disc1','sensor':'','accelerators':[],'request_origin':'manual','algorithm_type':'on_board_training','lib_version':'v3_b0d8eda','info':{'progression':{'evals_done':477,'optimization_progress':0.02385,'elapsed_time':367,'cpu_info':{'cpu_nb_cores':16,'cpu_nb_cores_for_optimization':11},'state':'paused'},'max_ram':192000,'max_flash':1024000,'optimization_global_id':'d4c3f6b028af72b6cade3c381986f51e','version':{'local_api':'2026.06.22.0','studio':'5.2.0'},'creation_date':'2026-09-24T14:19:25+00:00'},'class_names':'nominal,anomaly','results':[{'result_id':28,'combination':{'type':'anomaly_detection','name':'ZSM','params':{'z_mean_factor':0.1,'z_max_factor':0.8,'threshold_ratio':0.59,'z_score_norm':'abs','tmp_dir_path':null},'preprocessing_chain':[{'detrend':{'method':'polynomial','degree':3}},{'absolute':{}},{'interleaved':{}}]},'model':null,'performance':{'performance':{'score':0.8759,'main_kpi':0.8977},'memory_usage':{'estimated_ram':844,'estimated_flash':432,'estimated_flash_knowledge':null}},'learning_min_lines':1200,'knowledge':'eNrVltFuGzkMRX8l8HMxEEVJlPZXisKYtWcbA_Y4sCdF2yD_vocaO8nu9nFfmgIFhiORl_decvyyebpMT5fzbrpeD_PXzR8Pn182-2m5TPOeh5fNYX56Xrb7w2mar4fz3GPz9jqeno7TlSfJIXx6IPTXNC7Plx7La2T3OM7zdOynXomcn5f_LdfuPC_T94XH-fl4JHCalsezQ948nY8_5vPpMB43xPfT18s0EddX7r1sxj-v5-PzMv0-za24D4Qux2n8Nu1_J-hfXJrzfjr2pNfD13k8bo_TfM_wsajwvLZ1Pfyc7ieu_n45fDssP_zM4LHlERCP5-N-exmXw5l4GHJt_mdqpi0X5djP7WkaQT3ulvOlH5Kw_klqQaRIXE-N3z8eqrcz0mJosb0nei97OsxvYP77cvzu4O8vSf7vi_rrd_0eEPtbTh5OnazxMjOa29147DyvmK-782XazufLyT2Pq93s_zi73c3Lu3iO0adbVAetLYUUW6mWPz00GYRDzUKCw5rSp4dcBlGrlkrQaJIqMe6F2GKuFmuIpn5OOSc8FVPV29U41Kykb62aNWQw-kliIUYLOVhF5ipDS1UrqXNrhUgLgwbVKESpDOktDTFSBVwWVGLuoVRaSbFokxKk9HtWc06UbBLFc6eh0SSgpanmBiYzDmnNoKeDVloHVUNpwUrWGiqZCsmlpFaiFc9o9NIGM3jKHK01WfFjOC1zIgY1zZrldjXxWkGfmzqp5E-idKuhSujZrA6SzUooEW-ZgKLmocADPgyFQw6sxUE1iP_zdN5iHRIESOL5BkKCDtGgJ4acS0mhx1y05MmKBRdyjRWFduA5F1rXWEKZLGhUQy8qIQ45SAVfu3ug2eAC1UThQA3QtkEamKC6hLVNhIzBPLMownhNc3_Fgq7oEXrJAv8oC7PtbjoPFbMIPZ4O3SzhJdQtMVnOrgjJyQ0PGu5N4lWUoO9EPs_j01JKqDnkyExjGI85UDppvhJuMVFPT2dC1eQFRVzKWpKJKyoW_SquwwTYgh2xNoQiqKzZ7jXpUJJwE8caxdz1vn9qrKslcnG3ahtCccEryDKKd_NUQpqAzX91xYoEEcpq9zjGwJkxQrS5TaJv0Ouy77NrcTDlVbiV4P0QU2UYeHTQUMT97MOLG3MTa5RNqESN6mC7bClhMlJQOYEuxn5N8aCmUuy-GNJgWUthp1YrLasXZHIzlgaFpsxgEot5YJAEUzCtcORtKTaGVYm1hRUqESjMZAvRN0q63RRfCvE9Rks50r-GFnzK5CYoO6ShCAg0duJAYhUkMKa1uHoNZzef6Zo0roISwkC4J1J6nUOMHQoou191NRE7I2ND5WYvuuJgPGq2et8sNAP9cGO4KN3bYkwAyhbLHa2bCHozcHHCuhG8reRuEI71jddNI-zK5BzdFmqfTmItR19gVm_mkswgYNn7lugE4zimKVZmzFnvZQtmYJslptHHpcd80zYobr5dV7nYalkMLkqwrj2DMXCHMQy5uaidc6xVkKGxW1dnMmrQRvcSal0Z7x8rDMm1t4-Hs6n4GyvglL7LPZkhfbR1RnunkhkjbKvrxu87DEMwucwWuqbVz_7BYklTIzHj63cHwQf1XBQ0dk1vVdkN6JfvXwuJ6tPWkutTmqTVvoLtI8reG602-CcNE7EuInIzpj0TXyqEcaYIwS1bkMEoN-OkvrH4wOFH1u26w9whhQK5vHkywhCf0BZJ2HxFfPnFT4aPvyU-_iT4-FPBL-y-9R8o7ACJ-DL7won6dq-_RnDaLD4qeME73Jxub9j3r69_Ay7F48I=','knowledge_dat':null,'commit_tag_used':'v3_b0d8eda'}],'data':{'nb_cols':50,'nb_lines':[[{'file_type':'nominal','nb_lines':3000},{'file_type':'anomaly','nb_lines':3000}]]},'toolchain_type':'gcc','only_emulators':false},'sign':125314,'license_key':'***'}",
+    "compile_emulators": true,
+    "compile_library": true,
+    "data": {
+        "nb_cols": 50,
+        "nb_lines": [
+            [
+                {
+                    "file_type": "nominal",
+                    "nb_lines": 3000
+                },
+                {
+                    "file_type": "anomaly",
+                    "nb_lines": 3000
+                }
+            ]
+        ]
+    },
+    "learning_min_lines": 1200,
+    "lib_limited": false,
+    "library_id": "6ab534fe01ed2595a9995ef0",
+    "library_md5sum": "aced7ffa8470dec2d93639eca63da14d",
+    "mcu": "cortex-m4_st_stm32f4_stm32f407g-disc1",
+    "mcu_cpn": "STM32F407G-DISC1",
+    "mcu_display_name": "STM32F407G-DISC1 - STMicroelectronics",
+    "mcu_family": "STM32F4 Series",
+    "mcu_group": "demo",
+    "mcu_type": "cortex-m4",
+    "mcu_vendor": "STMicroelectronics",
+    "optimization_info": {
+        "creation_date": "2026-09-24T14:19:25+00:00",
+        "max_flash": 1024000,
+        "max_ram": 192000,
+        "optimization_global_id": "d4c3f6b028af72b6cade3c381986f51e",
+        "progression": {
+            "cpu_info": {
+                "cpu_nb_cores": 16,
+                "cpu_nb_cores_for_optimization": 11
+            },
+            "elapsed_time": 367,
+            "evals_done": 477,
+            "optimization_progress": 0.02385,
+            "state": "paused"
+        },
+        "version": {
+            "local_api": "2026.06.22.0",
+            "studio": "5.2.0"
+        }
+    },
+    "performance": {
+        "memory_usage": {
+            "estimated_flash": 432,
+            "estimated_flash_knowledge": null,
+            "estimated_ram": 844
+        },
+        "performance": {
+            "main_kpi": 0.8977,
+            "score": 0.8759
+        }
+    },
+    "request_type": "library",
+    "sensor": "",
+    "studio_info": {
+        "local_api": {
+            "platform": "win64",
+            "version": "2026.06.22.0"
+        },
+        "studio": "5.2.0",
+        "web_api": {
+            "env": "PROD",
+            "version": "v3"
+        }
+    },
+    "toolchain_version": "arm-none-eabi-gcc (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 13.2.1 20231009",
+    "user_info": {
+        "company": "Enstab",
+        "email": "anasbenslimene222@gmail.com",
+        "first_name": "Anas",
+        "last_name": "Ben Slimene"
+    }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "detrend": {
+      "method": "polynomial",
+      "degree": 3
+    }
+  },
+  {
+    "absolute": {}
+  },
+  {
+    "interleaved": {}
+  }
+]
