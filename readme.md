@@ -101,7 +101,7 @@ The diagram represents the intended signal-processing flow. The exact inference 
 
 The STM32F407G-DISC1 development board is used with a potentiometer as an analog input source for testing the embedded signal acquisition system.
 
-![STM32 hardware implementation](docs/project-setup.jpg)
+![STM32 hardware implementation](project-setup.jpg)
 
 ### 2. ADC Signal Acquisition and Debugging
 
