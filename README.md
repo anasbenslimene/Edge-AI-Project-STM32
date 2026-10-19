@@ -107,13 +107,13 @@ The STM32F407G-DISC1 development board is used with a potentiometer as an analog
 
 The ADC buffer is inspected in STM32CubeIDE to observe acquired samples and examine the firmware's signal acquisition behavior during debugging.
 
-![ADC buffer debugging in STM32CubeIDE](docs/adc-debug-output.png)
+![ADC buffer debugging in STM32CubeIDE](adc-debug-output.png)
 
 ### 3. NanoEdge AI Model Training and Benchmark Results
 
 NanoEdge AI Studio provides the reported classification performance, quality index, estimated memory requirements, and confusion matrix for the anomaly detection library.
 
-![NanoEdge AI benchmark results](docs/model-training-results.png)
+![NanoEdge AI benchmark results](model-training-results.png)
 
 ## Dataset
 
